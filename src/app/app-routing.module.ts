@@ -6,8 +6,8 @@ import { ContactPageComponent } from './shared/pages/contact-page/contact-page.c
 import { HomePageComponent } from './shared/pages/home-page/home-page.component';
 
 const routes: Routes = [
-  { path: 'about', component: AboutPageComponent },
-  { path: 'contact', component: ContactPageComponent },
+  // { path: 'about', component: AboutPageComponent },
+  // { path: 'contact', component: ContactPageComponent },
   {
     path: 'countries',
     loadChildren: () => import('./countries/countries.module')

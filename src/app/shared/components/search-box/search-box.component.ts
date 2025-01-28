@@ -1,6 +1,5 @@
 import { Component, EventEmitter, Input, OnDestroy, OnInit, Output } from '@angular/core';
 import { debounceTime, Subject, Subscription } from 'rxjs';
-import { Region } from '../../../countries/interfaces/region.type';
 
 @Component({
   selector: 'shared-search-box',

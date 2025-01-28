@@ -1,59 +1,65 @@
-# 04CountryApp
+# ?? Angular Country App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
+An application developed with **Angular 19** that allows exploring detailed information about any country in the world.
 
-## Development server
+## ??? Technologies Used
 
-To start a local development server, run:
+- **Angular 19** with a module-based methodology (`standalone: false`).
+- **Bootstrap** for responsive design.
+- **GitHub Pages** for deployment.
 
-```bash
-ng serve
-```
+## ?? Live Demo
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The application is deployed at:  
+?? [Angular Country App](https://juanmavelezpa.github.io/Angular-CountryApp/)
 
-## Code scaffolding
+## ?? Installation
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+To run the project locally, follow these steps:
 
-```bash
-ng generate component component-name
-```
+1. **Clone the repository**
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+   ```bash
+   git clone https://github.com/juanmavelezpa/Angular-CountryApp.git
+   cd Angular-CountryApp
+   ```
 
-```bash
-ng generate --help
-```
+2. **Install Node.js dependencies**
 
-## Building
+   ```bash
+     npm install
+   ```
 
-To build the project run:
+3. **Install required additional packages**
 
-```bash
-ng build
-```
+   ```bash
+     npm install copyfiles --save-dev --force
+     npm install del-cli --save-dev
+   ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## ?? Build and Deploy on GitHub Pages
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+This command will compile the project and automatically publish it to the configured URL.
 
 ```bash
-ng e2e
+npm run build:github
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## ?? Useful Commands
 
-## Additional Resources
+Start the development server:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+npm run start
+```
+
+## ?? Important Notes
+
+* This project does not use Standalone Components but follows the traditional module-based approach in Angular.
+
+* Tests are not included in this version.
+
+
+## ????? Developed by JuanMaVelez
+
+?? Thank you for visiting the project!

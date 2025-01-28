@@ -10,7 +10,7 @@ import { Region } from '../../interfaces/region.type';
 })
 export class ByRegionPageComponent implements OnInit {
 
-  public title: string = 'Buscar por region...';
+  public title: string = 'Search by Region...';
   public regions: Region[] = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'];
   public countries: Country[] = [];
   public isLoading: boolean = false;

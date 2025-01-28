@@ -11,7 +11,7 @@ import { Country } from '../../interfaces/country';
 })
 export class ByCapitalPageComponent implements OnInit {
 
-  public title: string = 'Buscar por capital...';
+  public title: string = 'Search by Capital...';
   public countries: Country[] = [];
   public isLoading: boolean = false;
   public initialValue: string = '';

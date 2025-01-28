@@ -12,7 +12,7 @@ import { Country } from '../../interfaces/country';
 })
 export class ByCountryPageComponent implements OnInit {
 
-  public title: string = 'Buscar por pais...';
+  public title: string = 'Search by Country...';
   public countries: Country[] = [];
   public isLoading: boolean = false;
   public initialValue: string = '';
