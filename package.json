@@ -6,7 +6,7 @@
     "start": "ng serve -o",
     "build": "ng build",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist",
-    "build:href": "ng build --base-href /Angular-DevTalles-Countries/",
+    "build:href": "ng build --base-href /",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "delete:docs": "del-cli docs",
