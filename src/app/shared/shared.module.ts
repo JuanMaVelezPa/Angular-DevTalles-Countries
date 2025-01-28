@@ -9,11 +9,13 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner.component';
+import { FooterComponent } from './pages/footer/footer.component';
 
 @NgModule({
   declarations: [
     AboutPageComponent,
     ContactPageComponent,
+    FooterComponent,
     HomePageComponent,
     LoadingSpinnerComponent,
     SidebarComponent,
@@ -26,6 +28,7 @@ import { LoadingSpinnerComponent } from './components/loading-spinner/loading-sp
   exports: [
     AboutPageComponent,
     ContactPageComponent,
+    FooterComponent,
     HomePageComponent,
     LoadingSpinnerComponent,
     SearchBoxComponent,

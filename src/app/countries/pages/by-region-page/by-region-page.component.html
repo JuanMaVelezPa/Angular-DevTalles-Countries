@@ -5,7 +5,7 @@
   <div class="col">
     <button
     *ngFor="let region of regions"
-    class="btn mx-2"
+    class="btn mx-2 mb-2 center"
     [ngClass]="{'btn-outline-primary': selectedRegion === region}"
     (click)="searchByRegion(region)">
       {{region}}
